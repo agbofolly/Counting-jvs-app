@@ -1,0 +1,51 @@
+body {
+    background-image: url("river.jpg");
+    background-size: cover;
+    font-family:   Roboto, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, -apple-system, BlinkMacSystemFont;
+    font-weight: bold;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.container {
+    /* border: 50px black; */
+    background: rgb(62, 164, 208);
+    max-width: 50%;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-image: url("ground.jpg");
+
+}
+button {
+    border: solid rgb(173, 223, 8);;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+
+#increment-btn {
+    background: #063593;
+}
+
+#save-btn {
+    background: #098c09;
+}
+
